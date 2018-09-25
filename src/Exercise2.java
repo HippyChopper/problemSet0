@@ -16,7 +16,7 @@ public class Exercise2 {
         for (i = 1; i <= 10; i++) {
 
             y = i * 36;
-           JOptionPane.showMessageDialog(null,txtArea + "\n" +i + "\n" + y);
+           JOptionPane.showMessageDialog(null,txtArea + "\n" + i + "\n" + y);
 
         } //end of for
     } //end of main
