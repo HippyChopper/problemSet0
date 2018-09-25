@@ -5,6 +5,7 @@ public class Exercise2 {
     public static void main(String[] args) {
 
         int y = 0;
+        String yAsString;
 
 
         JTextArea txtArea = new JTextArea(10,10);
@@ -19,6 +20,8 @@ public class Exercise2 {
             y = i * 36;
 
         } //end of for
-        JOptionPane.showMessageDialog(null,txtArea ,"test", JOptionPane.INFORMATION_MESSAGE);
+
+
+        JOptionPane.showMessageDialog(null,txtArea + Integer.toString(i) ,"test", JOptionPane.INFORMATION_MESSAGE);
     } //end of main
 }

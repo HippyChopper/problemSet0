@@ -1,29 +1,24 @@
-import java.util.Scanner;
 
 public class Exercise6 {
     public static void main(String[] args) {
-       int num, square;
+        int num, square, i = 1;
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a number");
-        num = input.nextInt();
 
-        square = cube(num);
 
-        System.out.println(square);
 
+
+        System.out.println("number \t cube");
+
+        while (i < 16) {
+            square =  MyMethods.cube(i);
+            System.out.println(i + "\t\t" + square);
+
+            i++;
         }
 
+    }
+
     //predefined method
-    public static int cube(int n){
-        int cubed;
-        cubed = n*n*n;
-
-        return cubed;
-    }
 
 
-
-
-
-    }
+}
